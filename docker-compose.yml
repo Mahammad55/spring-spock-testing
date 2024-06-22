@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  custom-mysql:
+  custom-postgres:
     hostname: postgres
     image: postgres
     container_name: test-postgres
